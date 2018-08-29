@@ -2,9 +2,6 @@ sudo: required
 language: generic
 services: 
  - docker
- 
- before_install:
-  - docker build -t fezerik/htm-docker -f Dockerfile.dev .
 
 deploy: 
   provider: elasticbeanstalk
