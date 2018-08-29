@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="100" viewBox="0 0 142 100">
+  <defs>
+    <path id="shape-curve-logo-b" d="M72.75,100.999773 C90.2750277,100.942569 106.795862,90.0725134 113.091022,72.7006377 L139.442153,8.52651283e-14 L51.2682288,7.38382086e-14 L0,0 L0,101 L72.75,101 Z"/>
+    <filter id="shape-curve-logo-a" width="108.6%" height="111.9%" x="-4.3%" y="-4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0"/>
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -1)">
+    <use fill="#000" filter="url(#shape-curve-logo-a)" xlink:href="#shape-curve-logo-b"/>
+    <use fill="#FFF" xlink:href="#shape-curve-logo-b"/>
+  </g>
+</svg>
